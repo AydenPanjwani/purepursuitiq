@@ -17,7 +17,7 @@ float* receive(){
 //         cout << num;
 //     }
 
-//     ofstream file("ints.txt", ios::trunc); //truncates (clears) the file
+//     ofstream file("ints.txt", ios::trunc); //clears the file
 //     return 0;
 
 FILE *file = fopen("ints.txt", "r");
