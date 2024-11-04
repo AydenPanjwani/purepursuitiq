@@ -7,7 +7,7 @@ path = []
 new_path = []
 path_x = []
 path_y = []
-
+#NOT MY CODE: matplotlib interactive plot example
 # Callback function to capture mouse movement
 def onmove(event):
     if event.inaxes is not None and event.button == 1:  # Check if left mouse button is pressed
